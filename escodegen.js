@@ -1337,6 +1337,10 @@
             }
             return result;
         },
+      
+        Import: function () {
+          return ['import'];
+        },
 
         ImportDeclaration: function (stmt, flags) {
             // ES6: 15.2.1 valid import declarations:
